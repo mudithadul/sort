@@ -38,26 +38,3 @@ public class HelloWorld {
     }
 
 }
-class Person{
-    private String id;
-
-    void setId(String id){
-        this.id = id;
-    }
-
-    String getId(){
-        return id;
-    }
-}
-
-class Print<T> {
-    T dataStore;
-    public Print(T dataStore){
-        this.dataStore = dataStore;
-    }
-
-    void displayPrint(){
-        System.out.println(dataStore);
-    }
-}
-
